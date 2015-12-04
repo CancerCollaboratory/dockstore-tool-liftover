@@ -29,7 +29,7 @@ dct:creator:
   foaf:name: "Andrey Kartashov"
   foaf:mbox: "mailto:Andrey.Kartashov@cchmc.org"
 
-dct:description: "Developed at Cincinnati Children’s Hospital Medical Center for the CWL consortium http://commonwl.org/ Original URL: https://github.com/common-workflow-language/workflows”
+dct:description: "Developed at Cincinnati Children’s Hospital Medical Center for the CWL consortium http://commonwl.org/ Original URL: https://github.com/common-workflow-language/workflows"
 
 requirements:
   - class: DockerRequirement
