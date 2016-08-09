@@ -1,0 +1,20 @@
+{
+  "oldFile": {
+    "path": "oldFile.bed",
+    "class": "File"
+  },
+  "newFile": "output.bed",
+  "unMapped": "unmapped.bed",
+  "output": {
+    "path": "output.bed",
+    "class": "File"
+  },
+  "mapChain": {
+    "path": "hg19ToHg18.over.chain",
+    "class": "File"
+  },
+  "unMappedFile": {
+    "path": "unmapped.bed",
+    "class": "File"
+  }
+}

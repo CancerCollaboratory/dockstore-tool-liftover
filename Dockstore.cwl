@@ -31,10 +31,11 @@ dct:creator:
 
 dct:description: "Developed at Cincinnati Children’s Hospital Medical Center for the CWL consortium http://commonwl.org/ Original URL: https://github.com/common-workflow-language/workflows"
 
+cwlVersion: draft-3
+
 requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/cancercollaboratory/dockstore-tool-liftover"
-  - { import: node-engine.cwl }
 
 inputs:
   - id: "#oldFile"
@@ -213,17 +214,13 @@ outputs:
     type: File
     description: "The sorted file"
     outputBinding:
-      glob:
-        engine: cwl:JsonPointer
-        script: /job/newFile
+      glob: $(inputs.newFile)
 
   - id: "#unMappedFile"
     type: File
     description: "The sorted file"
     outputBinding:
-      glob:
-        engine: cwl:JsonPointer
-        script: /job/unMapped
+      glob: $(inputs.unMapped)
 
 
 baseCommand: ["liftOver"]
