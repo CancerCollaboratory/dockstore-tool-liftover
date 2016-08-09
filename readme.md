@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/CancerCollaboratory/dockstore-tool-liftover.svg)](https://travis-ci.org/CancerCollaboratory/dockstore-tool-liftover)
-[![Docker Repository on Quay](https://quay.io/repository/collaboratory/dockstore-tool-liftover/status "Docker Repository on Quay")](https://quay.io/repository/collaboratory/dockstore-tool-liftover)
+[![Docker Repository on Quay](https://quay.io/repository/cancercollaboratory/dockstore-tool-liftover/status "Docker Repository on Quay")](https://quay.io/repository/collaboratory/dockstore-tool-liftover)
 
 This tool has been validated as a CWL draft-3 and v1.0 CommandLineTool. 
 
