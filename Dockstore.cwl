@@ -15,7 +15,7 @@ cwlVersion: v1.0
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/cancercollaboratory/dockstore-tool-liftover
+  dockerPull: quay.io/cancercollaboratory/dockstore-tool-liftover:1.0
 inputs:
   genePred:
     type: boolean?
